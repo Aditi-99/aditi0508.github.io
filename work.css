@@ -60,7 +60,7 @@ body {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:768px) {
   body {
     background: #353537;
     margin: 0vw;
