@@ -132,11 +132,11 @@ a {
     width: 60vw;
     height: 92vw;
     background-color: black;
-    margin-top: 35vw;
+    margin-top: 40vw;
   }
   .box .text-box {
     width: 35vw;
-    margin-left: 12vw;
+    margin-left: 20vw;
     text-align: center;
   }
   .box .text-box p {
