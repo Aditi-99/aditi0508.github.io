@@ -1,0 +1,135 @@
+body {
+  background: #353537;
+  margin: 0vw;
+  overflow-x: auto;
+  margin: 0vw;
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 2vw;
+  margin-left: 69vw;
+  width: 30vw;
+  height: 1.5vw;
+  border: none;
+  border-radius: 0.2vw;
+}
+.nav-bar .link-item h1 {
+  font-size: 1vw;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+.nav-bar .link-item h2 {
+  font-size: 1vw;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 2.5px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: 4.8vw;
+}
+.content {
+  display: grid;
+  grid-template-rows: auto 2vw auto auto auto 2vw;
+  margin: auto;
+  grid-gap: 2vw;
+  margin-top: 7vw;
+  margin-left: 9vw;
+}
+.content .image-one img {
+  width: 80vw;
+}
+.small {
+  display: none;
+}
+.content .image-two img {
+  width: 80vw;
+}
+.content .image-three img {
+  width: 80vw;
+}
+.content .image-four img {
+  width: 80vw;
+}
+.content .text h4 {
+  font-size: 1vw;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: #353537;
+    margin: 0vw;
+    overflow-x: auto;
+  }
+  a {
+    font-size: 3vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .nav-bar {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 99vw;
+    height: 1.5vw;
+    margin-left: 11vw;
+  }
+  .nav-bar .link-item h1 {
+    font-size: 2.5vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .nav-bar .link-item h2 {
+    font-size: 2.5vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 2.5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: 12.5vw;
+    margin-right: 0vw;
+    margin-left: 4vw;
+  }
+  .content {
+    display: grid;
+    grid-template-rows: auto 7vw auto auto auto 2vw;
+    margin: auto;
+    grid-gap: 5vw;
+    margin-top: 15vw;
+    margin-left: 3.5vw;
+  }
+  .content .text h4 {
+    font-size: 2vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .small {
+    display: block;
+    width: 80vw;
+  }
+  .content .image-one img {
+    width: 90vw;
+  }
+  .big {
+    display: none;
+  }
+  .content .image-two img {
+    width: 90vw;
+  }
+  .content .image-three img {
+    width: 90vw;
+  }
+  .content .image-four img {
+    width: 90vw;
+  }
+}
