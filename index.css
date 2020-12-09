@@ -80,7 +80,7 @@ a {
     grid-template-columns: auto auto auto;
     width: 99vw;
     height: 1.5vw;
-    margin-left: 11vw;
+    margin-left: 20vw;
   }
   .nav-bar .link-item h1 {
     font-size: 2.5vw;
@@ -103,7 +103,7 @@ a {
 
   .text-box {
     width: 50vw;
-    margin-left: 26vw;
+    margin-left: 30vw;
     text-align: center;
     margin-top: 40vw;
   }
