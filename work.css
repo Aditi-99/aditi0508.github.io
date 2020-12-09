@@ -79,7 +79,7 @@ body {
     grid-template-columns: auto auto auto;
     width: 99vw;
     height: 1.5vw;
-    margin-left: 11vw;
+    margin-left: 20vw;
   }
   .nav-bar .link-item h1 {
     font-size: 2.5vw;
@@ -105,7 +105,7 @@ body {
     margin: auto;
     grid-gap: 5vw;
     margin-top: 15vw;
-    margin-left: 3.5vw;
+    margin-left: 5vw;
   }
   .content .text h4 {
     font-size: 2vw;
