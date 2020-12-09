@@ -108,7 +108,7 @@ a {
     grid-template-columns: auto 23vw auto;
     width: 99vw;
     height: 1.5vw;
-    margin-left: 11vw;
+    margin-left: 20vw;
   }
   .nav-bar .link-item h1 {
     font-size: 2.5vw;
@@ -155,7 +155,7 @@ a {
   }
   .out-image {
     width: 30vw;
-    margin-top: 105vw;
+    margin-top: 160vw;
     margin-bottom: 0vw;
     margin-left: 0vw;
   }
